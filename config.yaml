@@ -1,9 +1,9 @@
 #reference_genoem
-reference_fasta: "/home/dnaseq/database/hg38/hg38.fa"
+reference_fasta: "/home/server/database/hg38/hg38.fa"
 
 #known_sites for gatk
-known_sites1: "/home/dnaseq/database/dbsnp151.chr.hg38.vcf.gz"
-known_sites2: "/home/dnaseq/database/Mills_and_1000G_gold_standard.indels.hg38.vcf.gz"
+known_sites1: "/home/server/database/dbsnp151.chr.hg38.vcf.gz"
+known_sites2: "/home/server/database/Mills_and_1000G_gold_standard.indels.hg38.vcf.gz"
 
 #gatk_optional_parameters
 gatk_extra_params: "--emit-ref-confidence GVCF"
